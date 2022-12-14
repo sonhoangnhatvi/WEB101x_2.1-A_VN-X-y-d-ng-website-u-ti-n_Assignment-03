@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>TRANG WEB QUẢN LÝ THÚ CƯNG</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      color: #343a40;
+      line-height: 1.5;
+      width: 100%;
+    }
+
+    .container {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 2fr 1fr 1fr;
+      background-color: #0000FF;
+      padding: 20px;
+    }
+
+    /* Region Goals */
+    .project-goals-title h4 {
+      color: #0000FF;
+    }
+
+    .project-goals-item-icon {
+      height: 25px;
+      width: 25px;
+    }
+
+    .project-goals {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      background-color: #F0F8FF;
+    }
+
+    /* Region Team */
+    .project-team-title h4 {
+      color: #0000FF;
+    }
+
+    .project-team-item-icon {
+      height: 25px;
+      width: 25px;
+    }
+
+    .project-team {
+      grid-row: 1/2;
+      grid-column: 2/3;
+      background-color: #F0F8FF;
+    }
+
+    /* Region Scopes */
+    .project-scopes-title h4 {
+      color: #0000FF;
+    }
+
+    .project-scopes-item-icon {
+      height: 25px;
+      width: 25px;
+    }
+
+    .project-scopes {
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+      background-color: #F0F8FF;
+    }
+
+    /* Region Primary */
+    .project-primary-title h4 {
+      color: #0000FF;
+    }
+
+    .project-primary-item-icon {
+      height: 25px;
+      width: 25px;
+    }
+
+    .project-primary {
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+      background-color: #F0F8FF;
+    }
+
+    /* Region Timeline */
+    .project-timeline {
+
+      grid-row: 1 / 3;
+      grid-column: 3 / 4;
+      background-color: #F0F8FF;
+    }
+
+    .project-timeline-title h4 {
+      color: #0000FF;
+    }
+
+    .project-timeline-index {
+      margin: 0;
+    }
+
+    .project-timeline-index p {
+      margin-bottom: 0px;
+      color: white;
+      background-color: #9E88FF;
+      border: 1px solid #868e96;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+    }
+
+    .project-timeline-item-content {
+      border-bottom: 2px dotted #22b8cf;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Region Goals -->
+    <div class="project-goals ps-3 pe-3 pt-3 ">
+      <div class="project-goals-title border-bottom border-3">
+        <h4 class="fw-bold fs-3">Goals</h4>
+      </div>
+      <div
+        class="project-goals-item d-flex flex-column flex-xl-row align-items-center justify-content-center border-bottom pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-goals-item-icon m-xl-5 m-2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+        </svg>
+        <div class="project-goals-item-content">
+          <p class="project-goals-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div
+        class="project-goals-item d-flex flex-column flex-xl-row align-items-center justify-content-center border-bottom pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-goals-item-icon m-xl-5 m-2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+        </svg>
+        <div class="project-goals-item-content">
+          <p class="project-goals-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div
+        class="project-goals-item d-flex flex-column flex-xl-row align-items-center justify-content-center border-bottom pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-goals-item-icon m-xl-5 m-2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+        </svg>
+        <div class="project-goals-item-content">
+          <p class="project-goals-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Region Team -->
+    <div class="project-team ps-3 pe-3 pt-3">
+      <div class="project-team-title border-bottom border-3">
+        <h4 class="fw-bold fs-3">Team</h4>
+      </div>
+      <div class="project-team-item d-flex flex-column flex-xl-row pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-team-item-icon mt-2 m-5 w-auto">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+        <div class="project-team-item-content">
+          <p class="project-team-item-title mb-0 fw-bold">Member 01</p>
+          <p class="mb-0">Name: ...</p>
+        </div>
+      </div>
+      <div class="project-team-item d-flex flex-column flex-xl-row pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-team-item-icon mt-2 m-5 w-auto">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+        <div class="project-team-item-content">
+          <p class="project-team-item-title mb-0 fw-bold">Member 01</p>
+          <p class="mb-0">Name: ...</p>
+        </div>
+      </div>
+      <div class="project-team-item d-flex flex-column flex-xl-row pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-team-item-icon mt-2 m-5 w-auto">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+        <div class="project-team-item-content">
+          <p class="project-team-item-title mb-0 fw-bold">Member 01</p>
+          <p class="mb-0">Name: ...</p>
+        </div>
+      </div>
+      <div class="project-team-item d-flex flex-column flex-xl-row pt-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-team-item-icon mt-2 m-5 w-auto">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+        <div class="project-team-item-content">
+          <p class="project-team-item-title mb-0 fw-bold">Member 01</p>
+          <p class="mb-0">Name: ...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Region Scopes -->
+    <div class="project-scopes ps-3 pe-3 pt-3 pb-5">
+      <div class="project-scopes-title border-bottom border-3">
+        <h4 class="fw-bold fs-3">Scopes</h4>
+      </div>
+      <div class="project-scopes-content d-flex flex-column flex-xl-row gap-5 ms-3">
+        <div class="project-scopes-item d-flex pt-3">
+          <div class="project-scopes-item-content">
+            <p class="project-scopes-item-title mb-0 fw-bold">IN</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+          </div>
+        </div>
+        <div class="project-scopes-item d-flex pt-3">
+          <div class="project-scopes-item-content">
+            <p class="project-scopes-item-title mb-0 fw-bold">OUT</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Region Primary -->
+    <div class="project-primary ps-3 pe-3 pt-3">
+      <div class="project-primary-title border-bottom border-3">
+        <h4 class="fw-bold fs-3">Primary</h4>
+      </div>
+      <div class="project-primary-item d-flex flex-column flex-xl-row pt-3 gap-3 ms-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-primary-item-icon w-auto me-3">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+        </svg>
+        <div class="project-primary-item-content">
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="project-primary-item d-flex flex-column flex-xl-row pt-3 gap-3 ms-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 project-primary-item-icon w-auto me-3">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+        </svg>
+        <div class="project-primary-item-content">
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Region Timeline -->
+    <div class="project-timeline ps-3 pe-3 pt-3">
+      <div class="project-timeline-title border-bottom border-3">
+        <h4 class="fw-bold fs-3">Timeline</h4>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">01</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">02</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">03</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">04</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">05</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="project-timeline-item d-flex flex-column flex-xl-row align-items-xl-center">
+        <div class="project-timeline-index m-3 ms-0">
+          <p class="fs-3">06</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <!-- <div class="project-timeline-item mt-4">
+        <div class="project-timeline-index">
+          <p class="fs-3">06</p>
+        </div>
+        <div class="project-timeline-item-content pb-1">
+          <p class="project-timeline-item-title mb-0 fw-bold">Goals 1</p>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

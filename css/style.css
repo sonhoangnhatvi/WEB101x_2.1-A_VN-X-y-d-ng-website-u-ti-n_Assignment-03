@@ -347,6 +347,10 @@ nav .nav-bar-content {
     width: 100%;
 }
 
+#project .item .project-title-link {
+    text-decoration: none;
+}
+
 #project .item .project-title {
     padding: 20px;
     font-size: 16px;
